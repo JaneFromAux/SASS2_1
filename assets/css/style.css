@@ -5,8 +5,9 @@
 }
 
 body {
-  background: linear-gradient(45deg, aqua, gold, crimson, violet);
-  height: 100vh;
+  background: linear-gradient(45deg, #00ffff 12.5%, #ffd700 12.5%, #ffd700 25%, #dc143c 25%, #dc143c 37.5%, #ee82ee 37.5%, #ee82ee 50%, #00ffff 50%, #00ffff 62.5%, #ffd700 62.5%, #ffd700 75%, #dc143c 75%, #dc143c 87.5%, #ee82ee 87.5%, #ee82ee 100%, #00ffff);
+  height: 96vh;
+  font-family: sans-serif;
 }
 body header {
   font-size: 42px;
@@ -16,19 +17,38 @@ body main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 60vh;
+}
+body main div {
+  color: white;
+  text-align: center;
+  font-weight: 400;
 }
 body main div h1 {
-  margin-left: 70%;
+  margin-left: 90%;
   background-color: gold;
   border-radius: 50%;
-  color: white;
+  width: 200px;
+  height: 200px;
+  font-size: 10rem;
+  position: relative;
+  top: 60px;
+}
+body main div h2 {
+  font-size: 15rem;
+}
+body main div h3 {
+  font-size: 3rem;
 }
 body footer {
+  padding: 16vh 5% 0 5%;
   display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 body footer .lab {
-  justify-content: flex-end;
+  margin: 15px;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

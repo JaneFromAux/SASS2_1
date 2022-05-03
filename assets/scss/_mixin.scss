@@ -1,3 +1,19 @@
 @mixin background {
-    background: linear-gradient(45deg, aqua, gold, crimson, violet);
+    background: linear-gradient(45deg,
+            #00ffff 12.50%,
+            #ffd700 12.50%,
+            #ffd700 25%,
+            #dc143c 25%,
+            #dc143c 37.50%,
+            #ee82ee 37.50%,
+            #ee82ee 50%,
+            #00ffff 50%,
+            #00ffff 62.50%,
+            #ffd700 62.50%,
+            #ffd700 75%,
+            #dc143c 75%,
+            #dc143c 87.50%,
+            #ee82ee 87.50%,
+            #ee82ee 100%,
+            #00ffff);
 }
