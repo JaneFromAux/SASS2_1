@@ -1,0 +1,44 @@
+@import "_generals.scss";
+@import "_variables.scss";
+@import "_mixin.scss";
+
+body {
+    @include background;
+    height: 100vh;
+
+    header {
+        font-size: 42px;
+        margin: 30px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+
+        div {
+            h1 {
+                margin-left: 70%;
+                background-color: gold;
+                border-radius: 50%;
+                // height: 200px;
+                // width: 200px;
+                color: white;
+
+            }
+
+            h2 {}
+
+            h3 {}
+        }
+    }
+
+    footer {
+        display: flex;
+
+        .lab {
+            justify-content: flex-end;
+        }
+    }
+}
